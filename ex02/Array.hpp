@@ -20,7 +20,7 @@ public:
     {
         if (n > 0)
         {
-            _elements = new T[n](); // () ensures default initialization
+            _elements = new T[n]();
         }
     }
 
