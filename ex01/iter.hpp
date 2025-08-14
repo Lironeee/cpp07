@@ -3,7 +3,6 @@
 
 #include <cstddef>
 
-// Version pour éléments non-const
 template <typename T, typename F>
 void iter(T *array, size_t length, F f)
 {
@@ -11,7 +10,6 @@ void iter(T *array, size_t length, F f)
         f(array[i]);
 }
 
-// Version pour éléments const
 template <typename T, typename F>
 void iter(const T *array, size_t length, F f)
 {
